@@ -2,7 +2,7 @@ import math
 import numpy as np
 import random
 
-N = 256
+N = 128
 
 nu = math.ceil(math.log(N, 2))
 nk = math.ceil(math.log(nu + 1 + math.log(nu + 1, 2), 2))
